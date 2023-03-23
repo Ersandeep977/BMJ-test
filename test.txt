@@ -1,0 +1,1 @@
+BMJ Indian Wordpress ci/cd pipeline
