@@ -1,0 +1,19 @@
+pipeline {
+    agent any
+
+    stages {
+        stage('Download Git Code') {
+            steps {
+                echo 'All file down loading .................'
+                git 'https://github.com/Ersandeep977/BMJ-test.git'
+                echo 'Task done.....'
+            }
+        }
+        stage('Filter New Changs') {
+            steps {
+                echo 'filter out new changes......................'
+                sh 'find -type f -mmin -1 | grep -v ".git"'
+            }
+        }
+    }
+}
