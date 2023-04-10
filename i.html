@@ -5,67 +5,54 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Simple HTML HomePage</title>
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+  <title>Bootstrap - Image gallery 1</title>
+  <style>
+    .flex-column {
+      max-width: 250px;
+    }
+
+    img {
+      margin: 6px;
+    }
+  </style>
 </head>
 
 <body>
-  <header class="header">
-    <a href="#" class="logo">Developer</a>
-    <nav class="nav-items">
-      <a href="#">Home</a>
-      <a href="#">About</a>
-      <a href="#">Contact</a>
-    </nav>
-  </header>
-  <main>
-    <div class="intro">
-      <h1>A Web Developer</h1>
-      <p>I am a web developer and I love to create websites.</p>
-      <button>Learn More</button>
-    </div>
-    <div class="achievements">
-      <div class="work">
-        <i class="fas fa-atom"></i>
-        <p class="work-heading">Projects</p>
-        <p class="work-text">I have worked on many projects and I am very proud of them. I am a very good developer and I am always looking for new projects.</p>
+  <div class="container-fluid">
+    <h1 class="text-center">Wonderful Oceans And Life Within</h1>
+    <p class="text-center">The oceans cover more than 70 per cent of the Earth's surface and the majority of life on Earth is aquatic.</p>
+    <div class="d-flex flex-wrap justify-content-center">
+      <div class="d-flex flex-column">
+        <img class="img-fluid" src="https://images.unsplash.com/photo-1580019542155-247062e19ce4?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8c2VhJTIwbGlmZXxlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=700&q=60">
+        <img class="img-fluid" src="https://images.unsplash.com/photo-1596414086775-3e321ab08f36?ixid=MnwxMjA3fDB8MHxzZWFyY2h8N3x8c2VhJTIwbGlmZXxlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=700&q=60">
       </div>
-      <div class="work">
-        <i class="fas fa-skiing"></i>
-        <p class="work-heading">Skills</p>
-        <p class="work-text">I have a lot of skills and I am very good at them. I am very good at programming and I am always looking for new skills.</p>
+
+      <div class="d-flex flex-column">
+        <img class="img-fluid" src="https://images.unsplash.com/photo-1591025207163-942350e47db2?ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mjd8fHNlYSUyMGxpZmV8ZW58MHx8MHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60">
+        <img class="img-fluid" src="https://images.unsplash.com/photo-1572720350370-8080412fc75b?ixid=MnwxMjA3fDB8MHxzZWFyY2h8NHx8c2VhJTIwbGlmZXxlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=700&q=60">
       </div>
-      <div class="work">
-        <i class="fas fa-ethernet"></i>
-        <p class="work-heading">Network</p>
-        <p class="work-text">I have a lot of network skills and I am very good at them. I am very good at networking and I am always looking for new network skills.</p>
+
+      <div class="d-flex flex-column">
+        <img class="img-fluid" src="https://images.unsplash.com/photo-1582967788606-a171c1080cb0?ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8c2VhJTIwbGlmZXxlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=700&q=60">
+        <img class="img-fluid" src="https://images.unsplash.com/photo-1572713629470-3e9f5d4fdf4c?ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8c2VhJTIwbGlmZXxlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=700&q=60">
+      </div>
+
+      <div class="d-flex flex-column">
+        <img class="img-fluid" src="https://images.unsplash.com/photo-1572685165919-360a1322f41e?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTF8fHNlYSUyMGxpZmV8ZW58MHx8MHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=700&q=60">
+        <img class="img-fluid" src="https://images.unsplash.com/photo-1559291001-693fb9166cba?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTZ8fHNlYSUyMGxpZmV8ZW58MHx8MHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=700&q=60">
+      </div>
+
+      <div class="d-flex flex-column">
+        <img class="img-fluid" src="https://images.unsplash.com/photo-1570368294249-55d0da1c69fd?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MjV8fHNlYSUyMGxpZmV8ZW58MHx8MHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60">
+        <img class="img-fluid" src="https://images.unsplash.com/photo-1437622368342-7a3d73a34c8f?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MjJ8fHNlYSUyMGxpZmV8ZW58MHx8MHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60">
       </div>
     </div>
-    <div class="about-me">
-      <div class="about-me-text">
-        <h2>About Me</h2>
-        <p>I am a web developer and I love to create websites. I am a very good developer and I am always looking for new projects. I am a very good developer and I am always looking for new projects.</p>
-      </div>
-      <img src="https://images.unsplash.com/photo-1596495578065-6e0763fa1178?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=871&q=80" alt="me">
-    </div>
-  </main>
-  <footer class="footer">
-    <div class="copy">© 2022 Developer</div>
-    <div class="bottom-links">
-      <div class="links">
-        <span>More Info</span>
-        <a href="#">Home</a>
-        <a href="#">About</a>
-        <a href="#">Contact</a>
-      </div>
-      <div class="links">
-        <span>Social Links</span>
-        <a href="#"><i class="fab fa-facebook"></i></a>
-        <a href="#"><i class="fab fa-twitter"></i></a>
-        <a href="#"><i class="fab fa-instagram"></i></a>
-      </div>
-    </div>
-  </footer>
+  </div>
+
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
 </body>
 
 </html>
